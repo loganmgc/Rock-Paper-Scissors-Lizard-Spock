@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock - Paper - Scissors - Lizard - Spock</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Rock - Paper - Scissors - <br /> Lizard - Spock</h1>
+        <div class="gameSide">
+            <table style="margin: auto;">
+                <tr class="headers">
+                    <td class="header"><h2>Your Move</h2></td>
+                    <td></td>
+                    <td class="header"><h2>Oppenent's Move</h2></td>
+                </tr>
+                <tr>
+                    <td><br /></td>
+                </tr>
+                <tr class="moveImage">
+                    <td id="playerMoveImage"></td>
+                    <td><h1>VS</h1></td>
+                    <td id="computerMoveImage"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="selection">
+            <button class="button" id="rock" value="0" onclick="MainGame('rock')">Rock</button>
+            <button class="button" id="paper" value="1" onclick="MainGame('paper')">Paper</button>
+            <button class="button" id="scissors" value="2" onclick="MainGame('scissors')">Scissors</button>
+            <button class="button" id="lizard" value="3" onclick="MainGame('lizard')">Lizard</button>
+            <button class="button" id="spock" value="4" onclick="MainGame('spock')">Spock</button>
+        </div>
+        <div id="resutlmsg">
+            <span id="result"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body> 
+</html>

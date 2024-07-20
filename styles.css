@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+}
+
+.container {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 25px;
+    width: 500px;
+    height: 510px;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+}
+
+    .selection button {
+        margin: 12px;
+        padding: 0px 10px 0px 10px;
+        border-radius: 5px;
+        background-color: #aefb2a;
+        font-size: 17px;
+    }
+
+button:hover {
+    background-color: #57EBDE;
+    color: black;
+}
+
+.header {
+    padding: 0px 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    height: 100px;
+}
+
+.gameSide {
+    background-color: #bebebec7;
+    margin-bottom: 10px;
+}
+
+.headers {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    box-shadow: none;
+}
+
+table h1 {
+    font-size: 60px;
+    font-family: Calibri, Helvatica, Arial;
+}
+
+#playerMoveImage {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #cccccc;
+    background-image: url("img/questionmark.png");
+    background-size: cover;
+    opacity: 0.50;
+}
+
+#computerMoveImage {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-image: url("img/questionmark.png");
+    opacity: 0.50;
+}
+
+#resutlmsg {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    border-radius: 25%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    width: 200px;
+    font-size: 30px;
+    padding: 10px;
+    opacity: 0;
+}
